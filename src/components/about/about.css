@@ -1,0 +1,13 @@
+.about__card{
+    display: flex;
+    gap: .9rem;
+}
+
+.experience{
+    transition: var(--transition)
+}
+
+
+.about__vid {
+    height: 45rem;
+}

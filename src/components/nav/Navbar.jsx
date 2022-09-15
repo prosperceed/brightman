@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import "./navbar.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { HiOutlineHome } from "react-icons/hi";
 import { HiVideoCamera } from "react-icons/hi";
 import { HiOutlinePhone } from "react-icons/hi";

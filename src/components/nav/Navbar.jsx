@@ -9,8 +9,8 @@ import { SiAboutdotme } from "react-icons/si";
 
 const Navbar = () => {
   return (
-    <div className="navbar__container flex rounded-xl shadow-md shadow-cyan-300">
-      <ul className="justify-center text-center">
+    <div className="navbar__container  rounded-xl shadow-md shadow-cyan-300">
+      <ul className="nav__ul justify-center text-center">
         <li>
           <a href="">
             {" "}

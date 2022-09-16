@@ -19,18 +19,18 @@ li {
     background: rgba(0, 0, 0, 0.3);
     width: max-content;
     display: block;
-    padding: 0.1rem 0.2rem;
+    padding: 0.05rem 0.2rem;
     position: fixed;
     z-index: 2;
     left: -13rem;
     transform: translateX(-50%);
-    bottom: -24rem;
+    bottom: -25rem;
     display: flex;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
   }
 
-  .navbar__container {
+  nav.navbar__container {
     border: none;
     box-shadow: none;
   }

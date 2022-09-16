@@ -5,10 +5,20 @@ import img2 from "../../assets/img/img2.jpg";
 import { Zoom } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 // import imageSlide from "../slide/imageSlide";
+
 const images = [
-  "../../assets/img/img1.jpeg",
-  "../../assets/img/img3.jpg",
-  "../../assets/img/img4.jpg",
+  {
+    img: require("../../assets/img/img4.jpg"),
+    caption: "My first slide",
+  },
+  {
+    img: require("../../assets/img/img1.jpg"),
+    caption: "My second slide",
+  },
+  {
+    img: require("../../assets/img/img2.jpg"),
+    caption: " This is me 20 years ago. I took unbending decision to fashion",
+  },
 ];
 
 const About = () => {
@@ -18,10 +28,12 @@ const About = () => {
       <div className="about__content grid grid-col-12 lg:grid-cols-2 justify-center items-center mx-10">
         <div className="about__text text-slate-200">
           <h5 className="text-[1rem] mr-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-            laborum Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Totam esse sapiente modi reprehenderit labore adipisci facilis nisi
-            corporis nesciunt veritatis..
+            Chikwelu Bright aka(Brightmarn )is a Nigeria entrepreneur ,a Forex
+            trader and film director and producer. He is best known for his
+            video directed at a production company, Brightmarn Studios, which
+            creates short films for social media platforms such as YouTube. The
+            films target a young audience and typically feature a turn of events
+            which teaches the protagonist a moral lesson.
           </h5>
         </div>
         <div className="about__card text-slate-300 text-center mb-4">
@@ -70,19 +82,25 @@ const About = () => {
       <div className="gallery__section flex flex-col items-center mt-4 pb-20">
         <h3 className="text-4xl text-slate-400 text-center mb-4">Gallery</h3>
 
-        <div className="gallery__card shadow-md w-[20rem] h-[30rem] shadow-black bg-white">
-          <img
-            className="w-full h-full object-cover me rounded-xl"
-            src={img2}
-            alt=""
-          />
-          <h4 className="text-2xl text-center mt-6 text-white">
-            This is me. About 20 years ago I took unbending decision to fashion
-          </h4>
-
-          <Zoom scale={0.4}>
-            {images.map((each, index) => (
-              <img className="w-full h-ful" key={index} src={each} />
+        <div className="gallery__card shadow-md rounded-xl w-[20rem] h-[30rem] shadow-black bg-white">
+          <Zoom
+            scale={0.4}
+            arrows={false}
+            autoplay={true}
+            transitionDuration={600}
+            duration={3000}
+            infinite={true}
+          >
+            {images.map((image, index) => (
+              <div className="" key={index}>
+                <img
+                  className="w-full h-[30rem] object-cover me rounded-xl"
+                  src={image.img}
+                />
+                <h4 className="text-2xl text-center mt-6 text-white">
+                  {image.caption}
+                </h4>
+              </div>
             ))}
           </Zoom>
         </div>

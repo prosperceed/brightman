@@ -16,5 +16,11 @@
 }
 
 .me {
-  /* transform: rotate(10deg); */
+  transform: rotate(10deg);
+  transition: var(--transition);
+  overflow-x: visible;
+}
+
+.me:hover {
+  transform: rotate(0);
 }

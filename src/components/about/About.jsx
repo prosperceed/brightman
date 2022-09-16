@@ -89,7 +89,7 @@ const About = () => {
             arrows={false}
             autoplay={true}
             transitionDuration={600}
-            duration={3000}
+            duration={3500}
             infinite={true}
           >
             {images.map((image, index) => (

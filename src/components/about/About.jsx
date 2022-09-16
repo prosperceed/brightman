@@ -4,20 +4,21 @@ import vid1 from "../../assets/vid/vid.mp4";
 import img2 from "../../assets/img/img2.jpg";
 import { Zoom } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-// import imageSlide from "../slide/imageSlide";
 
 const images = [
   {
     img: require("../../assets/img/img4.jpg"),
-    caption: "My first slide",
+    caption: "Unknown known",
   },
   {
     img: require("../../assets/img/img1.jpg"),
-    caption: "My second slide",
+    caption:
+      "In my next world, I would choose you. Open up to me to be with you forever❤",
   },
   {
     img: require("../../assets/img/img2.jpg"),
-    caption: " This is me 20 years ago. I took unbending decision to fashion",
+    caption:
+      "My Love, my treasure, my joy. My love for you expands like the sea",
   },
 ];
 

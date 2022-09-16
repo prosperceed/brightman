@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.css";
 // import { Link } from "react-router-dom";
 import { HiOutlineHome } from "react-icons/hi";
@@ -8,17 +8,23 @@ import { HiUsers } from "react-icons/hi";
 import { SiAboutdotme } from "react-icons/si";
 
 const Navbar = () => {
+  const [active, setActive] = useState("");
+
   return (
     <nav className="navbar__container  rounded-xl shadow-md shadow-cyan-300">
       <ul className="nav__ul justify-center text-center">
         <li>
-          <a href="">
+          <a
+            href="#"
+            onClick={() => setActive("#")}
+            className={active === "#" ? "text-red-800 rounded-full" : ""}
+          >
             {" "}
             <HiOutlineHome className=" text-2xl text-cyan-300" />
           </a>
         </li>
         <li>
-          <a href="">
+          <a className="hover:bg-slate-800 hover:rounded-full" href="">
             <HiVideoCamera className="text-2xl text-cyan-300" />
           </a>
         </li>

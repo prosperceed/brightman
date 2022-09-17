@@ -15,7 +15,7 @@
   aspect-ratio: 1/1;
 }
 
-.me {
+/* .me {
   transform: rotate(10deg);
   transition: var(--transition);
   overflow-x: visible;
@@ -23,4 +23,4 @@
 
 .me:hover {
   transform: rotate(0);
-}
+} */

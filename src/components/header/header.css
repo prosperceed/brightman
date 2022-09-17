@@ -1,10 +1,19 @@
-.header__container{
-    overflow: hidden;
-
+.header__container {
+  overflow: hidden;
 }
 
-.header__img{
-    border-radius: 12rem 12rem 0 0;
+.header__img {
+  border-radius: 12rem 12rem 0 0;
+}
+
+@media (max-width: 614px) {
+  .header__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
 }
 
 /* .header__content{

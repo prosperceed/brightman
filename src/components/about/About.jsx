@@ -2,8 +2,11 @@ import React from "react";
 import "./about.css";
 import vid1 from "../../assets/vid/vid.mp4";
 import img2 from "../../assets/img/img2.jpg";
-import { Zoom } from "react-slideshow-image";
+import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
+import { BiLineChart } from "react-icons/bi";
+import { HiFilm } from "react-icons/hi";
+import { IoLogoYoutube } from "react-icons/io";
 
 const images = [
   {
@@ -26,7 +29,7 @@ const About = () => {
   return (
     <div className="about__container mt-10" id="about">
       <h3 className="text-4xl text-slate-400 text-center my-10">About Me</h3>
-      <div className="about__content grid grid-col-12 lg:grid-cols-2 justify-center items-center mx-10">
+      <div className="about__content grid md:grid-cols-2 justify-center  mx-10">
         <div className="about__text text-slate-200">
           <h5 className="text-[1rem] mr-3">
             Chikwelu Bright aka(Brightmarn )is a Nigeria entrepreneur ,a Forex
@@ -38,26 +41,27 @@ const About = () => {
           </h5>
         </div>
         <div className="about__card text-slate-300 text-center mb-4">
-          <div className="grid grid-cols-2 gap-4 lg:grid-cols-3">
-            <div className="experience py-[1rem] w-[9rem]  bg-purple-800 border border-slate-800 hover:bg-transparent shadow-xl rounded-md">
-              <h4 className=" text-2xl font-bold py-2 text-center">
-                Experience
+          <div className="grid grid-cols-2 justify-center items-center gap-4 md:grid-cols-3">
+            <div className="experience py-[1rem] bg-purple-800 border border-slate-800 hover:bg-transparent shadow-xl rounded-md">
+              <BiLineChart className="text-[2rem] w-full mx-auto text-slate-300" />
+              <h4 className=" text-1xl font-bold py-2 text-center mx-4">
+                Forex Trader
               </h4>
-              <small className="align-left text-[1rem] ">My experience</small>
             </div>
 
-            <div className="experience py-[1rem] w-[9rem]  bg-purple-800 border border-slate-800 hover:bg-transparent shadow-xl rounded-md">
-              <h4 className=" text-2xl font-bold py-2 text-center">
-                Experience
-              </h4>
-              <small className="align-left text-[1rem]">My Experience.</small>
-            </div>
+            <div className="experience py-[1rem]   bg-purple-800 border border-slate-800 hover:bg-transparent shadow-xl rounded-md">
+              <HiFilm className="text-[2rem] w-full mx-auto text-slate-300" />
 
-            <div className="experience py-[1rem] w-[9rem]  bg-purple-800 border border-slate-800 hover:bg-transparent shadow-xl rounded-md">
-              <h4 className=" text-2xl font-bold py-2 text-center">
-                Experience
+              <h4 className="text-1xl font-bold py-2 text-center mx-4">
+                Filming and Directing
               </h4>
-              <small className="align-left text-[1rem]">My experience.</small>
+            </div>
+            <div className="experience py-[1rem] bg-purple-800 border border-slate-800 hover:bg-transparent shadow-xl rounded-md">
+              <IoLogoYoutube className="text-[2rem] w-full mx-auto text-red-600" />
+
+              <h4 className="text-1xl font-bold py-2 text-center mx-4">
+                Professional Youtuber
+              </h4>
             </div>
           </div>
         </div>
@@ -83,19 +87,19 @@ const About = () => {
       <div className="gallery__section flex flex-col items-center mt-4 pb-20">
         <h3 className="text-4xl text-slate-400 text-center mb-4">Gallery</h3>
 
-        <div className="gallery__card shadow-md rounded-xl w-[20rem] h-[30rem] shadow-black bg-white">
-          <Zoom
+        <div className="gallery__card shadow-md rounded-xl w-[15rem] h-[20rem] shadow-black bg-white">
+          <Slide
             scale={0.4}
             arrows={false}
             autoplay={true}
             transitionDuration={600}
-            duration={3500}
+            duration={4000}
             infinite={true}
           >
             {images.map((image, index) => (
               <div className="" key={index}>
                 <img
-                  className="w-full h-[30rem] object-cover me rounded-xl"
+                  className="w-full h-[20rem] object-cover me rounded-xl"
                   src={image.img}
                 />
                 <h4 className="text-2xl text-center mt-6 text-white">
@@ -103,7 +107,7 @@ const About = () => {
                 </h4>
               </div>
             ))}
-          </Zoom>
+          </Slide>
         </div>
       </div>
     </div>

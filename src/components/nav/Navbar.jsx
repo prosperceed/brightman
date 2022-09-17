@@ -10,7 +10,7 @@ const Navbar = () => {
   const [active, setActive] = useState("#");
 
   return (
-    <nav className="navbar__container rounded-xl shadow-md shadow-cyan-300 ">
+    <nav className="navbar__container rounded-full shadow-md shadow-cyan-300 ">
       <ul className="nav__ul">
         <li>
           <a

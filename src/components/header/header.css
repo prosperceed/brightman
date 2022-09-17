@@ -6,17 +6,16 @@
   border-radius: 12rem 12rem 0 0;
 }
 
+.intro__text {
+  word-break: break-all;
+}
+
 @media (max-width: 614px) {
-  .header__container {
+  /* .header__container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 3rem;
-  }
+  } */
 }
-
-/* .header__content{
-    display: grid;
-   
-} */

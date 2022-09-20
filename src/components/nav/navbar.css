@@ -13,3 +13,9 @@
 li {
   padding: 1rem;
 }
+
+.active__nav {
+  background: rgba(67, 14, 228, 0.3);
+  transition: var(--transition);
+  backdrop-filter: blur(15px);
+}

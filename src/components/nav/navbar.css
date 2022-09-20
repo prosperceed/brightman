@@ -12,6 +12,7 @@
 
 li {
   padding: 1rem;
+  cursor: pointer;
 }
 
 .active__nav {

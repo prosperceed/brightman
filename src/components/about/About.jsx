@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import vid1 from "../../assets/vid/vid.mp4";
-import img2 from "../../assets/img/img2.jpg";
+// import img2 from "../../assets/img/img2.jpg";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import { BiLineChart } from "react-icons/bi";
@@ -10,17 +10,17 @@ import { IoLogoYoutube } from "react-icons/io";
 
 const images = [
   {
-    img: require("../../assets/img/img4.jpg"),
+    img: require("../../assets/img/img3.jpg"),
     caption: "Slide1",
   },
   {
     img: require("../../assets/img/img1.jpg"),
     caption: "Slide2",
   },
-  {
-    img: require("../../assets/img/img2.jpg"),
-    caption: "Slide3",
-  },
+  // {
+  //   img: require("../../assets/img/img2.jpg"),
+  //   caption: "Slide3",
+  // },
 ];
 
 const About = () => {
@@ -42,7 +42,7 @@ const About = () => {
           <div className="grid grid-cols-2 justify-center items-center gap-4 md:grid-cols-3">
             <div className="experience py-[1rem] hover:translate-y-1 hover:translate-x-2 bg-purple-800 border border-slate-800 hover:bg-transparent shadow-xl rounded-md">
               <BiLineChart className="text-[2rem] w-full mx-auto text-slate-300" />
-              <h4 className=" text-1xl font-bold py-2 text-center mx-4">
+              <h4 className="text-1xl font-bold py-2 text-center mx-4">
                 Forex Trader
               </h4>
             </div>
@@ -85,7 +85,7 @@ const About = () => {
       <div className="gallery__section flex flex-col items-center mt-4 pb-20">
         <h3 className="text-4xl text-slate-400 text-center mb-4">Gallery</h3>
 
-        <div className="gallery__card backdrop-blur-md shadow-md rounded-xl w-[15rem] h-[20rem]  bg-white">
+        <div className="gallery__card shadow-md rounded-xl w-[15rem] h-[20rem]  bg-white">
           <Slide
             scale={0.4}
             arrows={false}

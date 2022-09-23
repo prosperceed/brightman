@@ -31,7 +31,7 @@ const Navbar = () => {
               : ""
           }
         >
-          <a className="hover:bg-slate-800 hover:rounded-full">
+          <a>
             <HiVideoCamera className="text-[1.2rem] text-cyan-300" />
           </a>
         </li>

@@ -6,9 +6,9 @@ const Header = () => {
   return (
     <div className="header__container">
       <div className="header__content pt-20 grid justify-center md:grid-cols-2">
-        <div className="header__img bg-cyan-400 mx-10 w-[19rem] h-[27rem] shadow-lg mb-8">
+        <div className="header__img bg-cyan-400 mx-10 w-[20rem]  h-[23rem] shadow-lg mb-8">
           <img
-            className=" h-[23rem] mx-auto w-[16rem] mt-[3.98rem] object-cover"
+            className=" h-[22rem]  rounded-full mx-auto w-[180px] object-cover"
             src={ME}
             alt="me"
           />

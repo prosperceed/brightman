@@ -3,7 +3,7 @@ import Address from "./Address";
 
 const Contact = () => {
   return (
-    <div className="my-6">
+    <div className="my-6 overflow-x-hidden">
       <h4 className="text-center text-slate-400 text-2xl mb-10">Contact me</h4>
 
       <div className="w-[20rem] mx-auto grid gap-y-10 md:w-full md:grid-cols-2">

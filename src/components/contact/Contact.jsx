@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="my-6">
       <h4 className="text-center text-slate-400 text-2xl mb-10">Contact me</h4>
 
-      <div className="max-w-1/2 mx-auto grid gap-y-10 md:grid-cols-2">
+      <div className="w-[20rem] mx-auto grid gap-y-10 md:w-full md:grid-cols-2">
         <Address className="" />
         <form className="bg-cyan-4 mx-auto">
           <div class=" flex-wrap items-center mb-6">
@@ -37,7 +37,7 @@ const Contact = () => {
                 Email
               </label>
               <input
-                class="appearance-none block  bg-gray-200 text-gray-700 border border-purple-500 rounded py-3 px-8 mb-3 leading-tight focus:outline-none focus:bg-white"
+                class="appearance-none block bg-gray-200 text-gray-700 border border-purple-500 rounded py-3 px-8 mb-3 leading-tight focus:outline-none focus:bg-white"
                 id="grid-first-name"
                 type="email"
                 placeholder="email@example.com"

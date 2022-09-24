@@ -3,10 +3,10 @@ import Address from "./Address";
 
 const Contact = () => {
   return (
-    <div className="my-6 overflow-x-hidden">
+    <div className="my-6 overflow-x-hidden max-w-[50rem] mx-auto">
       <h4 className="text-center text-slate-400 text-2xl mb-10">Contact me</h4>
 
-      <div className="w-[20rem] mx-auto grid gap-y-10 md:w-full md:grid-cols-2">
+      <div className="mx-auto w-[18rem] grid gap-y-10 md:w-full md:grid-cols-2">
         <Address className="" />
         <form className="bg-cyan-4 mx-auto">
           <div class=" flex-wrap items-center mb-6">

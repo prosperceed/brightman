@@ -18,11 +18,11 @@ const Header = () => {
             Welcome to{" "}
             <small className="text-cyan-300 text-3xl">
               {" "}
-              Brightman Studio.{" "}
+              Brightmarn Studio.{" "}
             </small>
           </h3>
           <h5 className="text-2xl text-slate-300 tracking-[1.1rem] leading-[2.2rem] mt-12">
-            I make excellent scripts that produce inspiring movies😊
+            I make excellent scripts that transforms into inspiring movies😊
           </h5>
         </div>
       </div>

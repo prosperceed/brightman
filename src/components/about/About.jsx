@@ -30,12 +30,12 @@ const About = () => {
       <div className="about__content grid md:grid-cols-2 justify-center  mx-10">
         <div className="about__text text-slate-200">
           <h5 className="text-[1rem] mr-3">
-            Chikwelu Bright aka(Brightmarn )is a Nigeria entrepreneur ,a Forex
-            trader and film director and producer. He is best known for his
-            video directed at a production company, Brightmarn Studios, which
-            creates short films for social media platforms such as YouTube. The
-            films target a young audience and typically feature a turn of events
-            which teaches the protagonist a moral lesson.
+            Chikwelu Bright aka (Brightmarn) is a Nigeria entrepreneur, a Forex
+            trader, a film director and producer. He is best known for his video
+            directed at a production company, Brightmarn Studios, which creates
+            short films for social media platforms such as YouTube. The films
+            target a young audience and typically feature a turn of events which
+            teaches the protagonist a moral lesson.
           </h5>
         </div>
         <div className="about__card text-slate-300 text-center mb-4">

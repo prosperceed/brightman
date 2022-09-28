@@ -1,7 +1,10 @@
-@media (max-width: 715px) {
+/* @media (max-width: 715px) {
   .contact {
     max-width: 20rem;
     margin: 0 auto;
     overflow-x: hidden;
   }
-}
+  .address__card {
+    width: 100%;
+  }
+} */

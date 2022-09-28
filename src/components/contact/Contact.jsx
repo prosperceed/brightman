@@ -4,12 +4,12 @@ import Address from "./Address";
 
 const Contact = () => {
   return (
-    <div className="my-6 contact max-w-[50rem] mx-auto">
+    <div className="my-6 contact max-w-[48rem] mx-auto">
       <h4 className="text-center text-slate-400 text-2xl mb-10">Contact me</h4>
 
       <div className="grid  justify-center content-center items-center gap-y-10 md:w-full md:grid-cols-2">
         <Address />
-        <form className="bg-cyan-4 mx-auto">
+        <form className="bg-cyan-4 mx-auto flex items-center">
           <div class=" flex-wrap items-center mb-6">
             <div class=" md:w-1/2 px-3 mb-6 md:mb-0">
               <label class="block uppercase tracking-wide text-cyan-400 text-sm font-bold mb-2">

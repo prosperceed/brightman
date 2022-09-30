@@ -1,20 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import ME from "../../assets/img/me.png";
 import "./header.css";
 
 const Header = () => {
-  const i = 0;
-  const text = ["Brightmarn Studio."];
-  const speed = 50;
-  let jsxArray = [];
-
-  if (i < text.length) {
-    jsxArray.push(
-      (document.querySelector(".typer").innerHTML += text.charAt(i))
-    );
-    i++;
-  }
-
   return (
     <div className="header__container">
       <div className="header__content pt-20 grid justify-center md:grid-cols-2">
@@ -27,7 +15,11 @@ const Header = () => {
         </div>
         <div className="header__text px-12 md:justify-center">
           <h3 className="text-3xl tracking-[0.2rem] intro__text text-slate-300 font-bold">
-            Welcome to <small className="text-cyan-300 text-3xl typer"></small>
+            Welcome to{" "}
+            <small className="text-cyan-300 text-3xl">
+              {" "}
+              Brightmarn Studio.{" "}
+            </small>
           </h3>
           <h5 className="text-2xl text-slate-300 tracking-[1.1rem] leading-[2.2rem] mt-12">
             I make excellent scripts that transforms into inspiring movies😊

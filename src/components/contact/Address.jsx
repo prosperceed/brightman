@@ -11,12 +11,12 @@ const Address = () => {
           <div className="flex flex-col justify-center content-center py-12 gap-6 ">
             <h4 className="text-gray-200 flex mx-5 mt-5 items-center gap-2">
               <FaSearchLocation className="text-7xl text-cyan-400 border-2 border-cyan-400 p-4 bg-gray-200 rounded-md" />
-              12 Damico, Ife, Osun state. Nigeria
+              No:1 Ezechi street ibusa roadAsaba delta Nigeria
             </h4>
 
             <h4 className="text-gray-200 flex mx-5 mt-5 items-center gap-2">
               <BsFillTelephoneForwardFill className="text-6xl text-cyan-400 border-2 border-cyan-400 p-4 bg-gray-200 rounded-md" />
-              (+234) 7036 877 727
+              +2347034711535 +22956458998
             </h4>
 
             <h4 className="text-gray-200 flex mx-5 mt-5 items-center gap-2">

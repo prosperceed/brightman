@@ -4,10 +4,10 @@ import Address from "./Address";
 
 const Contact = () => {
   return (
-    <div className="my-6 contact max-w-[48rem] mx-auto">
+    <div className="my-6 contact max-w-[48rem] mx-auto" id="contact">
       <h4 className="text-center text-slate-400 text-2xl mb-10">Contact me</h4>
 
-      <div className="grid  justify-center content-center items-center gap-y-10 md:w-full md:grid-cols-2">
+      <div className="grid justify-center content-center items-center gap-y-10 md:w-full md:grid-cols-2">
         <Address />
         <form className="bg-cyan-4 mx-auto flex items-center">
           <div class=" flex-wrap items-center mb-6">

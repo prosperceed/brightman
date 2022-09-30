@@ -43,7 +43,7 @@ const Navbar = () => {
               : ""
           }
         >
-          <a>
+          <a href="#contact">
             <HiOutlinePhone className="text-[1.2rem] text-cyan-300" />
           </a>
         </li>

@@ -24,7 +24,7 @@ const Footer = () => {
           <BsYoutube className="text-2xl md:text-3xl" />
         </a>
       </div>
-      <p className="text-sm capitalize md:text-base text-gray-300">
+      <p className="text-sm text-center capitalize md:text-base text-gray-300">
         copy Right &copy; Bright Chikwelu | All rights reserved
       </p>
     </div>

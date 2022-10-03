@@ -29,6 +29,27 @@
   animation: typing 3.5s steps(30, end), blink-caret 0.75s step-end infinite;
 }
 
+.type__container {
+  display: inline-block;
+}
+.typed-out {
+  overflow: hidden;
+  border-right: 0.15em solid rgb(255, 111, 111);
+  display: block;
+  white-space: wrap;
+  animation: typing 3.6s steps(20, end) infinite;
+  font-size: 1.6rem;
+  width: 0;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
 @media (max-width: 614px) {
   /* .header__container {
     display: flex;

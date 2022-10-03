@@ -20,8 +20,8 @@ li {
   transition: var(--transition);
   backdrop-filter: blur(15px);
 }
-@media (max-width: 672px) {
+/* @media (max-width: 672px) {
   .navbar__container {
     right: -30px;
   }
-}
+} */

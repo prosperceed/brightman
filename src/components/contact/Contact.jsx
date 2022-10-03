@@ -33,7 +33,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="my-6 contact max-w-[48rem] mx-auto" id="contact">
+    <div className="my-6 contact max-w-[50rem] mx-auto" id="contact">
       <h4 className="text-center text-slate-400 text-2xl mb-10">Contact me</h4>
 
       <div className="grid justify-center content-center items-center gap-y-10 md:w-full md:grid-cols-2">
@@ -50,7 +50,7 @@ const Contact = () => {
                 First Name
               </label>
               <input
-                class="contact__input appearance-none block bg-gray-200 text-gray-700 border border-blue-900 rounded py-3 px-8 mb-3 leading-tight focus:outline-none focus:bg-white"
+                class="contact__input appearance-none block bg-gray-200 text-gray-700 border border-blue-900 rounded py-3 px-1 md:py-3 md:px-8 mb-3 leading-tight focus:outline-none focus:bg-white required"
                 name="name"
                 type="text"
                 placeholder="Bright"
@@ -61,7 +61,7 @@ const Contact = () => {
                 Last Name
               </label>
               <input
-                class="contact__input appearance-none block  bg-gray-200 text-gray-700 border border-blue-900 rounded py-3 px-8 mb-3 leading-tight focus:outline-none focus:bg-white"
+                class="contact__input appearance-none block  bg-gray-200 text-gray-700 border border-blue-900 rounded py-3 px-1 md:py-3 md:px-8 mb-3 leading-tight focus:outline-none focus:bg-white required"
                 name="name"
                 type="text"
                 placeholder="Chikwelu"
@@ -72,7 +72,7 @@ const Contact = () => {
                 Email
               </label>
               <input
-                class="contact__input appearance-none block bg-gray-200 text-gray-700 border border-blue-900 rounded py-3 px-8 mb-3 leading-tight focus:outline-none focus:bg-white"
+                class="contact__input appearance-none block bg-gray-200 text-gray-700 border border-blue-900 rounded py-3 px-1 md:py-3 md:px-8 mb-3 leading-tight focus:outline-none focus:bg-white required"
                 name="email"
                 type="email"
                 placeholder="email@example.com"
@@ -83,7 +83,7 @@ const Contact = () => {
                 Message
               </label>
               <textarea
-                class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-28 resize-none"
+                class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-28 resize-none required"
                 id="message"
                 name="message"
               ></textarea>
@@ -96,15 +96,19 @@ const Contact = () => {
                 Send
               </button>
             </div>
-            <p
-              className={
-                message.error
-                  ? "bg-red-700 py-3 text-gray-300 text-center mt-5"
-                  : "bg-green-700 py-3 transition-all delay-75 text-gray-300 text-center rounded-md mt-5"
-              }
-            >
-              {message}
-            </p>
+            {message ? (
+              <p
+                className={
+                  message.error
+                    ? "bg-red-700 py-3 text-gray-300 text-center mt-5"
+                    : "bg-green-700 py-3 transition-all delay-75 text-gray-300 text-center rounded-md mt-5"
+                }
+              >
+                {message}
+              </p>
+            ) : (
+              ""
+            )}
           </div>
         </form>
       </div>

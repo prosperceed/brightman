@@ -1,11 +1,7 @@
 @media (max-width: 715px) {
-  /* form {
-    width: 16rem;
-    margin: 0 auto;
-    overflow-x: hidden;
-  } */
-  .contact__input {
-    padding-right: 4px;
-    margin: 0 auto;
+  .card {
+    width: 19rem;
+    word-break: break-all;
+    display: block;
   }
 }

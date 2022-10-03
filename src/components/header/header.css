@@ -37,7 +37,7 @@
   border-right: 0.15em solid rgb(255, 111, 111);
   display: block;
   white-space: wrap;
-  animation: typing 3.6s steps(20, end) infinite;
+  animation: typing 3.6s steps(20, end) forwards, blink 0.8s infinite;
   font-size: 1.6rem;
   width: 0;
 }

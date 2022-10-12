@@ -34,18 +34,86 @@
 }
 .typed-out {
   overflow: hidden;
-  border-right: 0.15em solid rgb(255, 111, 111);
-  display: block;
-  white-space: wrap;
-  animation: typing 3.6s steps(20, end) forwards, blink 0.8s infinite;
-  font-size: 1.6rem;
+  /* border-right: 0.15em solid rgb(255, 111, 111); */
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3.6s steps(20) forwards, blink 0.8s infinite;
+
   width: 0;
 }
+
+.typed-out :nth-child(2) {
+  overflow: hidden;
+  /* border-right: 0.15em solid rgb(255, 111, 111); */
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  /* opacity: 0; */
+  animation: typing2 3.6s steps(20, end) forwards, blink 0.3s infinite;
+
+  width: 0;
+}
+
+.typed-out :nth-child(3) {
+  overflow: hidden;
+  /* border-right: 0.15em solid rgb(255, 111, 111); */
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  /* opacity: 0; */
+  animation: typing3 4.8s steps(20, end) forwards, blink 0.2s infinite;
+
+  width: 0;
+}
+
+.typed-out :nth-child(4) {
+  overflow: hidden;
+  /* border-right: 0.15em solid rgb(255, 111, 111); */
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  /* opacity: 0; */
+  animation: typing4 8.8s steps(20, end) forwards, blink 0.8s infinite;
+
+  width: 0;
+}
+
 @keyframes typing {
   from {
     width: 0;
   }
   to {
+    width: 100%;
+  }
+}
+
+span {
+  animation: blink 1s infinite;
+}
+
+@keyframes typing2 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes typing3 {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes typing4 {
+  0% {
+    width: 0;
+  }
+  100% {
     width: 100%;
   }
 }

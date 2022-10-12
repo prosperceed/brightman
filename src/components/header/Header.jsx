@@ -21,8 +21,10 @@ const Header = () => {
               Brightmarn Studio.{" "}
             </small>
           </h3>
-          <h5 className="typed-out text-2xl text-slate-300 tracking-[1.1rem] leading-[2.2rem] mt-12">
-            I make excellent scripts that transforms into inspiring movies😊
+          <h5 className="typed-out text-[1.2rem] text-slate-300 tracking-[0.6rem] leading-[2.2rem] mt-12">
+            <span> I make excellent </span> <span>scripts that transforms</span>
+            <span> into inspiring</span>
+            <span> movies😊</span>
           </h5>
         </div>
       </div>

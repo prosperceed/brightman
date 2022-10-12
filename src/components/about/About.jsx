@@ -7,6 +7,7 @@ import "react-slideshow-image/dist/styles.css";
 import { BiLineChart } from "react-icons/bi";
 import { HiFilm } from "react-icons/hi";
 import { IoLogoYoutube } from "react-icons/io";
+import Project from "../project/Project";
 
 const images = [
   {
@@ -29,7 +30,7 @@ const About = () => {
       <h3 className="text-2xl text-slate-400 text-center my-10">About Me</h3>
       <div className="about__content grid md:grid-cols-2 justify-center  mx-10">
         <div className="about__text text-slate-200">
-          <h5 className="text-[1rem] mr-3">
+          <h5 className="text-[1rem] mr-3 py-3">
             Chikwelu Bright aka (Brightmarn) is a Nigeria entrepreneur, a Forex
             trader, a film director and producer. He is best known for his video
             directed at a production company, Brightmarn Studios, which creates
@@ -77,15 +78,13 @@ const About = () => {
           <h4 className="text-white text-4xl font-bold mb-6">
             STREAM OUR THRILLING VIDEOS
           </h4>
-          <button className="px-8 py-3 bg-white rounded-[2rem] hover:text-slate-200 hover:bg-cyan-500 my-10]">
+          <button className="transition px-8 py-3 bg-white rounded-[2rem] hover:text-slate-200 hover:bg-cyan-500 my-10]">
             Watch videos
           </button>
         </div>
       </div>
       <div className="gallery__section flex flex-col items-center mt-4 pb-20">
-        <h3 className="text-2xl text-slate-400 text-center mb-4">Gallery</h3>
-
-        <div className="gallery__card shadow-md rounded-xl w-[15rem] h-[20rem]  bg-white">
+        {/* <div className="gallery__card shadow-md rounded-xl w-[15rem] h-[20rem]  bg-white">
           <Slide
             scale={0.4}
             arrows={false}
@@ -99,14 +98,15 @@ const About = () => {
                 <img
                   className="w-full h-[20rem] object-cover me rounded-xl"
                   src={image.img}
-                />
-                <h4 className="text-2xl grid text-center mt-6 text-white">
+                  />
+                  <h4 className="text-2xl grid text-center mt-6 text-white">
                   {image.caption}
-                </h4>
-              </div>
-            ))}
-          </Slide>
-        </div>
+                  </h4>
+                  </div>
+                  ))}
+                </Slide>
+        </div> */}
+        <Project />
       </div>
     </div>
   );

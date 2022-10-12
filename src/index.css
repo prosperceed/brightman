@@ -21,7 +21,8 @@
   --text-primary: #22c0ff;
 }
 
-body {
+body,
+html {
   background: var(--bg-body);
   scroll-behavior: smooth;
   font-family: "Poppins", sans-serif;

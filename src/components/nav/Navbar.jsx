@@ -24,14 +24,24 @@ const Navbar = () => {
           </a>
         </li>
         <li
-          onClick={() => setActive("#videos")}
+          onClick={() => setActive("#about")}
           className={
-            active === "#videos"
+            active === "#about" ? "active__nav animate-pulse rounded-full " : ""
+          }
+        >
+          <a href="#about">
+            <SiAboutdotme className="text-[1.2rem] text-cyan-300" />
+          </a>
+        </li>
+        <li
+          onClick={() => setActive("#project")}
+          className={
+            active === "#project"
               ? "active__nav animate-pulse rounded-full "
               : ""
           }
         >
-          <a>
+          <a href="#project">
             <HiVideoCamera className="text-[1.2rem] text-cyan-300" />
           </a>
         </li>
@@ -47,17 +57,7 @@ const Navbar = () => {
             <HiOutlinePhone className="text-[1.2rem] text-cyan-300" />
           </a>
         </li>
-        <li
-          onClick={() => setActive("#about")}
-          className={
-            active === "#about" ? "active__nav animate-pulse rounded-full " : ""
-          }
-        >
-          <a href="#about">
-            <SiAboutdotme className="text-[1.2rem] text-cyan-300" />
-          </a>
-        </li>
-        <li
+        {/* <li
           onClick={() => setActive("#team")}
           className={
             active === "#team" ? "active__nav animate-pulse rounded-full " : ""
@@ -66,7 +66,7 @@ const Navbar = () => {
           <a>
             <HiUsers className="text-[1.2rem] text-cyan-300" />
           </a>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

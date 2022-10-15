@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="header__container">
       <div className="header__content pt-20 grid justify-between md:justify-center md:grid-cols-2">
-        <div className="header__img bg-cyan-400 mx-10 w-[20rem] h-[23rem] shadow-lg mb-8">
+        <div className="header__img left-30 md:left-0 bg-cyan-400 mx-10 w-[20rem] h-[23rem] shadow-lg mb-8">
           <img
             className=" h-[22rem] rounded-full mx-auto w-[180px] object-cover"
             src={ME}

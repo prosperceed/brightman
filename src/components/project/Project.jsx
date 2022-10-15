@@ -15,7 +15,7 @@ const Project = () => {
             src={require("../../assets/img/img1.jpg")}
             alt=""
           />
-          <div className="card__items py-5 px-14 hover:translate-y-3 hover:px-3 transition delay-300 duration-300 ease-in-out bg-gray-200 flex items-center drop-shadow-lg rounded-md shadow-lg backdrop-blur-sm hover:shadow-blue-900 justify-center z-10 absolute bottom-[-2rem]">
+          <div className="card__items py-5 px-14 hover:translate-y-3 hover:px-3 transition delay-300 duration-300 ease-in-out bg-gray-200 flex items-center drop-shadow-lg rounded-md shadow-lg backdrop-blur-sm hover:shadow-blue-900 justify-center absolute bottom-[-2rem]">
             <h4 className="mr-6 text-base">
               Taking responsibility <small>series</small>
             </h4>
@@ -34,7 +34,7 @@ const Project = () => {
             src={require("../../assets/img/img1.jpg")}
             alt=""
           />
-          <div className="card__items py-5 px-14 hover:translate-y-3 hover:px-3 transition delay-300 duration-300 ease-in-out bg-gray-200 flex items-center drop-shadow-lg rounded-md shadow-lg backdrop-blur-sm hover:shadow-blue-900 justify-center z-10 absolute bottom-[-2rem]">
+          <div className="card__items py-5 px-14 hover:translate-y-3 hover:px-3 transition delay-300 duration-300 ease-in-out bg-gray-200 flex items-center drop-shadow-lg rounded-md shadow-lg backdrop-blur-sm hover:shadow-blue-900 justify-center absolute bottom-[-2rem]">
             <h4 className="mr-6 text-base">
               Taking responsibility <small>series</small>
             </h4>
@@ -53,7 +53,7 @@ const Project = () => {
             src={require("../../assets/img/img3.jpg")}
             alt=""
           />
-          <div className="card__items py-5 px-14 hover:translate-y-3 hover:px-3 transition delay-300 duration-300 ease-in-out bg-gray-200 flex items-center drop-shadow-lg rounded-md shadow-lg backdrop-blur-sm hover:shadow-blue-900 justify-center z-10 absolute bottom-[-2rem]">
+          <div className="card__items py-5 px-14 hover:translate-y-3 hover:px-3 transition delay-300 duration-300 ease-in-out bg-gray-200 flex items-center drop-shadow-lg rounded-md shadow-lg backdrop-blur-sm hover:shadow-blue-900 justify-center absolute bottom-[-2rem]">
             <h4 className="mr-6 text-base">
               Taking responsibility <small>series</small>
             </h4>

@@ -28,7 +28,7 @@ const About = () => {
   return (
     <div className="about__container mt-10" id="about">
       <h3 className="text-2xl text-slate-400 text-center my-10">About Me</h3>
-      <div className="about__content grid md:grid-cols-2 justify-center  mx-10">
+      <div className="about__content grid md:grid-cols-2 justify-center mx-8">
         <div className="about__text text-slate-200">
           <h5 className="text-[1rem] mr-3 py-3">
             Chikwelu Bright aka (Brightmarn) is a Nigeria entrepreneur, a Forex

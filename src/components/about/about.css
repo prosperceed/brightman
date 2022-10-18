@@ -14,13 +14,3 @@
 .gallery__card {
   aspect-ratio: 1/1;
 }
-
-/* .me {
-  transform: rotate(10deg);
-  transition: var(--transition);
-  overflow-x: visible;
-}
-
-.me:hover {
-  transform: rotate(0);
-} */

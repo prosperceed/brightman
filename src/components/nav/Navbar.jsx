@@ -57,16 +57,6 @@ const Navbar = () => {
             <HiOutlinePhone className="text-[1.2rem] text-cyan-300" />
           </a>
         </li>
-        {/* <li
-          onClick={() => setActive("#team")}
-          className={
-            active === "#team" ? "active__nav animate-pulse rounded-full " : ""
-          }
-        >
-          <a>
-            <HiUsers className="text-[1.2rem] text-cyan-300" />
-          </a>
-        </li> */}
       </ul>
     </nav>
   );

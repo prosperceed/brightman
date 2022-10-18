@@ -33,7 +33,7 @@ const Contact = () => {
         },
         (error) => {
           console.log(error.text);
-          setMessage(`An error occured!`);
+          setMessage("An error occured!");
           setTimeout(() => {
             setMessage();
           }, 5800);

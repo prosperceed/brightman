@@ -1,7 +1,4 @@
 import React from "react";
-// import img1 from "../../assets/img/img1";
-// import img2 from "../../assets/img/img2";
-// import img3 from "../../assets/img/img3";
 
 const Project = () => {
   return (

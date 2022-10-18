@@ -1,28 +1,12 @@
 import React from "react";
 import "./about.css";
 import vid1 from "../../assets/vid/vid.mp4";
-// import img2 from "../../assets/img/img2.jpg";
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import { BiLineChart } from "react-icons/bi";
 import { HiFilm } from "react-icons/hi";
 import { IoLogoYoutube } from "react-icons/io";
 import Project from "../project/Project";
-
-const images = [
-  {
-    img: require("../../assets/img/img3.jpg"),
-    caption: "Slide1",
-  },
-  {
-    img: require("../../assets/img/img1.jpg"),
-    caption: "Slide2",
-  },
-  // {
-  //   img: require("../../assets/img/img2.jpg"),
-  //   caption: "Slide3",
-  // },
-];
 
 const About = () => {
   return (
@@ -78,34 +62,16 @@ const About = () => {
           <h4 className="text-white text-4xl font-bold mb-6">
             STREAM OUR THRILLING VIDEOS
           </h4>
-          <button className="transition px-8 py-3 bg-white rounded-[2rem] hover:text-slate-200 hover:bg-cyan-500 my-10]">
+          <a
+            className="transition px-8 py-3 bg-white rounded-[2rem] hover:text-slate-200 hover:bg-cyan-500 my-10]"
+            href="https://www.youtube.com/c/BRIGHTMARNSTUDIO1425/featured"
+            target="_blank"
+          >
             Watch videos
-          </button>
+          </a>
         </div>
       </div>
       <div className="gallery__section flex flex-col items-center mt-4 pb-20">
-        {/* <div className="gallery__card shadow-md rounded-xl w-[15rem] h-[20rem]  bg-white">
-          <Slide
-            scale={0.4}
-            arrows={false}
-            autoplay={true}
-            transitionDuration={600}
-            duration={4000}
-            infinite={true}
-          >
-            {images.map((image, index) => (
-              <div className="" key={index}>
-                <img
-                  className="w-full h-[20rem] object-cover me rounded-xl"
-                  src={image.img}
-                  />
-                  <h4 className="text-2xl grid text-center mt-6 text-white">
-                  {image.caption}
-                  </h4>
-                  </div>
-                  ))}
-                </Slide>
-        </div> */}
         <Project />
       </div>
     </div>

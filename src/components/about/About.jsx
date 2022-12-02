@@ -23,8 +23,8 @@ const About = () => {
             teaches the protagonist a moral lesson.
           </h5>
         </div>
-        <div className="about__card text-slate-300 text-center mb-4">
-          <div className="grid grid-cols-2 justify-center items-center gap-4 md:grid-cols-3">
+        <div className="about__card animate-slideright text-slate-300 text-center mb-4">
+          <div className="grid animate-slideup grid-cols-2 justify-center items-center gap-4 md:grid-cols-3">
             <div className="experience py-[1rem] hover:translate-y-1 hover:translate-x-2 bg-blue-900 border border-slate-800 hover:bg-transparent shadow-xl rounded-md">
               <BiLineChart className="text-[2rem] w-full mx-auto text-slate-300" />
               <h4 className="text-1xl font-bold py-2 text-center mx-4">

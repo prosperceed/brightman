@@ -14,7 +14,7 @@ const Header = () => {
           />
         </div>
         <div className="header__text mt-6 mx-8 md:justify-center">
-          <h3 className="text-2xl text-center mr-10 md:mr-0 md:text-justify tracking-[0.2rem] intro__text text-slate-300 font-bold">
+          <h3 className="text-2xl animate-slideleft text-center mr-10 md:mr-0 md:text-justify tracking-[0.2rem] intro__text text-slate-300 font-bold">
             Welcome to{" "}
             <small className="text-cyan-300 text-2xl">
               {" "}

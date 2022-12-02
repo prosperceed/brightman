@@ -43,6 +43,9 @@ const Contact = () => {
 
   return (
     <div className="my-6 contact max-w-[50rem] mx-auto" id="contact">
+      <h5 className="text-center italic text-slate-400">
+        Want to sign a deal?
+      </h5>
       <h4 className="text-center text-slate-400 text-2xl mb-10">Contact me</h4>
 
       <div className="grid justify-center content-center items-center gap-y-10 md:w-full md:grid-cols-2">

@@ -5,7 +5,7 @@ import { FaEnvelope } from "react-icons/fa";
 
 const Address = () => {
   return (
-    <div className="address__card max-w-[21.9rem] mx-auto h-[27.3rem] bg-cyan-400 rounded-lg shadow-lg drop-shadow-lg shadow-black">
+    <div className="address__card animate-slideup max-w-[21.9rem] mx-auto h-[27.3rem] bg-cyan-400 rounded-lg shadow-lg drop-shadow-lg shadow-black">
       <div className="card">
         <div className="card__details">
           <div className="flex flex-col justify-center content-center py-12 gap-6 ">

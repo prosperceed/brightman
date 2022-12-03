@@ -60,7 +60,8 @@ const About = () => {
 
         <div className="absolute leading-[1rem] tracking-[0.1rem] top-[12rem] ml-6">
           <h4 className="text-white text-4xl font-bold mb-6">
-            STREAM OUR THRILLING VIDEOS
+            We don't just write scripts <br />
+            We Act!
           </h4>
           <a
             className="transition px-8 py-3 bg-white rounded-[2rem] hover:text-slate-200 hover:bg-cyan-500 my-10]"
